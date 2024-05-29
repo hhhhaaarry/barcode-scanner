@@ -135,7 +135,7 @@
           @click="stopScanner"
           class="flex justify-center items-center gap-2 border-red-500 p-3 rounded-full border-2 border-solid h-12 w-12 hover:bg-red-500/20"
           v-show="
-            supportsIsrael === null && supportsPalestine === null && isScanning && !noBrandInfo
+            supportsIsrael === null && supportsPalestine === null && isScanning
           "
         >
           <Icon
@@ -147,7 +147,7 @@
         <button
           @click="resetScanner"
           class="flex justify-center items-center gap-2 p-3 rounded-full border-2 border-solid"
-          v-show="barcodeFound && brand"
+          v-show="barcodeFound && brand && !noBrandInfo"
           :class="
             supportsPalestine
               ? 'border-zinc-900 text-zinc-950 hover:bg-zinc-800/20'
