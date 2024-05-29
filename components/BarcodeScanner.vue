@@ -11,8 +11,14 @@
         <h3 class="text-xl font-medium leading-6">{{ brand }}</h3>
       </div>
       <div
-        class="video-container flex w-[59vw] h-[59vw] max-w-[250px] max-h-[250px] lg:w-[15vw] lg:h-[15vw] aspect-square flex-col justify-center items-center gap-2  p-2 rounded-2xl border-2 border-solid relative overflow-hidden"
-        :class="brand ? 'border-transparent' : (barcodeFound ? 'border-red-500' : 'border-zinc-600')"
+        class="video-container flex w-[59vw] h-[59vw] max-w-[250px] max-h-[250px] lg:w-[15vw] lg:h-[15vw] aspect-square flex-col justify-center items-center gap-2 p-2 rounded-2xl border-2 border-solid relative overflow-hidden"
+        :class="
+          brand
+            ? 'border-transparent'
+            : barcodeFound
+            ? 'border-red-500'
+            : 'border-zinc-600'
+        "
       >
         <div role="status" v-if="isScanning && videoLoading">
           <svg
@@ -61,7 +67,7 @@
       >
         <div
           class="flex h-[54px] flex-col items-center gap-2"
-          v-if="supportsIsrael === null && supportsPalestine === null"
+          v-if="supportsIsrael === null && supportsPalestine === null && !noBrandInfo"
         >
           <h2
             class="text-zinc-300 text-center text-base font-normal leading-[1.2]"
@@ -98,6 +104,14 @@
           </button>
         </div>
         <div
+          class="flex h-[54px] flex-col items-center gap-2 text-zinc-100 text-center"
+          v-if="noBrandInfo"
+        >
+          <h2 class="text-2xl font-bold leading-[normal] uppercase">
+            No info available for this brand
+          </h2>
+        </div>
+        <div
           class="flex h-[54px] flex-col items-center gap-2 text-zinc-300 text-center"
           v-if="supportsIsrael === false && supportsPalestine === false"
         >
@@ -121,7 +135,7 @@
           @click="stopScanner"
           class="flex justify-center items-center gap-2 border-red-500 p-3 rounded-full border-2 border-solid h-12 w-12 hover:bg-red-500/20"
           v-show="
-            supportsIsrael === null && supportsPalestine === null && isScanning
+            supportsIsrael === null && supportsPalestine === null && isScanning && !noBrandInfo
           "
         >
           <Icon
@@ -165,6 +179,7 @@ const source = ref("");
 const logo = ref("");
 const logoImage = ref(null);
 const codeReader = new BrowserMultiFormatReader();
+const noBrandInfo = computed(() => supportsIsrael.value === null && supportsPalestine.value === null && brand.value);
 
 const fetchBrand = async (barcode) => {
   try {
@@ -199,12 +214,12 @@ const checkSupport = (brandName) => {
       brandInfo["supports-palestine"]
     );
   } else {
-    supportsIsrael.value = false;
-    supportsPalestine.value = false;
-    reason.value = "";
+    supportsIsrael.value = null;
+    supportsPalestine.value = null;
+    reason.value = "No data available for this brand";
     source.value = "";
     logo.value = "";
-    brandStore.setSupport(false, false);
+    brandStore.setSupport(null, null);
   }
 };
 
