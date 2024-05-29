@@ -150,7 +150,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 import { BrowserMultiFormatReader, NotFoundException } from "@zxing/library";
-import { useBrandStore } from "@/stores/brandStore";
 
 const brandStore = useBrandStore();
 

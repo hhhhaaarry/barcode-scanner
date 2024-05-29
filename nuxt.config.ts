@@ -4,6 +4,10 @@ export default defineNuxtConfig({
 
   // Auto-import components
   components: true,
+
   css: ["~/assets/styles/fontface.css", "~/assets/styles/tailwind.css"],
-  modules: ["@nuxtjs/tailwindcss", 'nuxt-icon', '@pinia/nuxt']
-})
+  modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@pinia/nuxt"],
+  build: {
+    transpile: ["@zxing/library"],
+  },
+});
