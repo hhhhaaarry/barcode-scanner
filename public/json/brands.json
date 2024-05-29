@@ -1,0 +1,402 @@
+[
+  {
+    "brand": "Ahava",
+    "logo": "https://www.ahava.com/wp-content/uploads/2022/02/ahava-logo.png",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Productos fabricados en asentamientos israelíes en Cisjordania.",
+    "source": "https://www.ahava.com"
+  },
+  {
+    "brand": "Aroma Café",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Arsenal Football Club",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Patrocinio de empresas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Aston Martin",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Bagel Bagel",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Productos fabricados en asentamientos israelíes en Cisjordania.",
+    "source": ""
+  },
+  {
+    "brand": "Bar Refaeli",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Promoción de la imagen de Israel en el extranjero.",
+    "source": ""
+  },
+  {
+    "brand": "Barkan Wine Cellars",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Productos fabricados en asentamientos israelíes en Cisjordania.",
+    "source": ""
+  },
+  {
+    "brand": "Baskin Robbins",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Beigel & Beigel",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Productos fabricados en asentamientos israelíes en Cisjordania.",
+    "source": ""
+  },
+  {
+    "brand": "BiC",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Black & Decker",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Bobcat",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Boeing",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Carmel Agrexco",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Productos fabricados en asentamientos israelíes en Cisjordania.",
+    "source": ""
+  },
+  {
+    "brand": "Caterpillar",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Suministro de maquinaria utilizada en la demolición de viviendas palestinas.",
+    "source": ""
+  },
+  {
+    "brand": "Chicco",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Christian Dior",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Coca-Cola",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Danone",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Delta Galil",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Productos fabricados en asentamientos israelíes en Cisjordania.",
+    "source": ""
+  },
+  {
+    "brand": "Disney",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Dixons",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "eBay",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Eden Springs",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Productos fabricados en asentamientos israelíes en Cisjordania.",
+    "source": ""
+  },
+  {
+    "brand": "Estee Lauder",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Ford",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "G4S",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Suministro de servicios de seguridad a prisiones israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Garnier",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "General Electric",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Hacendado",
+    "logo": "https://easypeasycommunication.wordpress.com/wp-content/uploads/2018/10/logo-vector-hacendado.jpg",
+    "supports-israel": false,
+    "supports-palestine": true,
+    "reason": "lorem ipsum dolor sit amet",
+    "source": ""
+  },
+  {
+    "brand": "Hewlett-Packard",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Suministro de tecnología utilizada en los puestos de control israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Home Depot",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Hugo Boss",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Intel",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Johnson & Johnson",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Keter",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Productos fabricados en asentamientos israelíes en Cisjordania.",
+    "source": ""
+  },
+  {
+    "brand": "L'Oreal",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "McDonald's",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Motorola",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Suministro de tecnología utilizada en los puestos de control israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Nestle",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Nokia",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Pampers",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "PepsiCo",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Puma",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Patrocinio de empresas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Revlon",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Siemens",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Starbucks",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Apoyo financiero a las fuerzas armadas israelíes.",
+    "source": ""
+  },
+  {
+    "brand": "Teva",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Productos fabricados en asentamientos israelíes en Cisjordania.",
+    "source": ""
+  },
+  {
+    "brand": "Victoria's Secret",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Inversiones en tecnología militar israelí.",
+    "source": ""
+  },
+  {
+    "brand": "Volvo",
+    "logo": "",
+    "supports-israel": true,
+    "supports-palestine": false,
+    "reason": "Suministro de maquinaria utilizada en la demolición de viviendas palestinas.",
+    "source": ""
+  }
+]
